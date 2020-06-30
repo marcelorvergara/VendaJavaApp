@@ -1,0 +1,9 @@
+CREATE TABLE venda
+(
+id SERIAL UNIQUE NOT NULL,
+nome varchar(30),
+qtd int,
+valor numeric,
+cod varchar(30),
+primary key(id)
+)
