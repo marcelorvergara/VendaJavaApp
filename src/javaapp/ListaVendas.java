@@ -176,10 +176,8 @@ public class ListaVendas extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new ListaVendas().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new ListaVendas().setVisible(true);
         });
     }
 
